@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم نسخه پزشکی</title>
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url('Vazir-Bold.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Vazir', sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid #ccc;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 80px;
+        }
+
+        .header h2, .header h3 {
+            margin: 5px 0;
+        }
+
+        .info-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid rgba(204, 204, 204, 0.65);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box; /* اطمینان از اینکه عرض شامل پدینگ و بوردر است */
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 10px;
+
+
+        }
+
+        .info-table td {
+            background-color: rgba(255, 255, 255, 0.51);
+            padding: 16px;
+            border: 1px solid rgba(187, 187, 187, 0.39);
+            border-radius: 5px;
+            text-align: right;
+        }
+
+        /* اطمینان از اینکه جدول داروها نیز در یک راستا باشد */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border:1px solid #ccc;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 16px;
+            background: #f2f2f2;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 16px;
+            background: #f2f2f2;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 15px; /* فاصله بیشتر */
+
+        }
+        tr{
+            gap: 10px;
+            border:1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #000;
+            text-align: center;
+            border:1px solid #ccc;
+
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .description {
+            margin-top: 20px;
+            text-align: right;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid rgba(187, 187, 187, 0.39);
+            min-height: 200px;
+            border-radius: 10px;
+        }
+
+        .signature {
+            margin-top: 20px;
+            text-align: right;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid rgba(187, 187, 187, 0.39);
+            min-height: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="jom.png" alt="لوگو">
+        <h2>جمهوری اسلامی ایران</h2>
+        <h3>وزارت بهداشت، درمان و آموزش پزشکی</h3>
+    </div>
+
+    <div class="info-container">
+        <table class="info-table">
+            <tr>
+                <td style="background-color: #f2f2f2;"><strong>نام و نام خانوادگی بیمار:</strong></td>
+                <td style="background-color: #f2f2f2;"><strong>تاریخ صدور نسخه:</strong></td>
+            </tr>
+            <tr>
+                <td style="background-color:#f2f2f2;"><strong>کد ملی بیمار:</strong></td>
+                <td style="background-color: #f2f2f2;"><strong>تاریخ اعتبار نسخه:</strong></td>
+            </tr>
+            <tr>
+                <td style="background-color: #f2f2f2;"><strong>بیمه پایه:</strong></td>
+                <td style="background-color: #f2f2f2;"><strong>شناسه یکتا:</strong></td>
+            </tr>
+            <tr>
+                <td style="background-color: #f2f2f2;"><strong>بیمه تکمیلی:</strong></td>
+                <td style="background-color: #f2f2f2;"><strong>نوع نسخه:</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section-title">تشخیص:</div>
+    <table>
+        <tr style="background-color: #f2f2f2;">
+            <th>ردیف</th>
+            <th>عنوان دارو</th>
+            <th>تعداد</th>
+            <th>مقدار مصرف</th>
+            <th>زمان مصرف</th>
+            <th>طریقه مصرف</th>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="description">توضیحات:</div>
+    <p></p>
+
+    <div class="signature">
+        مهر و امضای پزشک:
+    </div>
+</div>
+</body>
+</html>
